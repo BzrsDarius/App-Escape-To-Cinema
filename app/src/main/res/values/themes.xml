@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppEscapeToCinema" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Puedes tener otro para modo nocturno si manejas temas claros/oscuros a nivel de XML -->
+
+    <!-- NUEVO TEMA PARA LA SPLASH SCREEN -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Obligatorio: Color de fondo de la splash screen -->
+        <item name="windowSplashScreenBackground">@color/dark_background_splash</item>
+
+        <!-- Obligatorio: Icono central (tu icono de app) -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher2</item>
+        <!-- Opcional: Si tu icono ic_launcher es un Drawable Vectorial Animado (AVD) -->
+        <!-- <item name="windowSplashScreenAnimationDuration">1000</item> -->
+
+        <!-- Opcional: Icono de marca en la parte inferior (si lo tienes) -->
+        <!-- <item name="android:windowSplashScreenBrandingImage">@drawable/branding_logo_escape</item> -->
+        <!-- (Necesitarías crear @drawable/branding_logo_escape) -->
+
+        <!-- Obligatorio: Tema a aplicar DESPUÉS de la splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.AppEscapeToCinema</item>
+    </style>
+
+</resources>

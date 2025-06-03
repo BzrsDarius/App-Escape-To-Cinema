@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!--
+            Si también vas a probar en un dispositivo físico conectado a la misma red WiFi
+            que tu computadora donde corre la API Spring Boot, añade la IP local de tu computadora aquí.
+            Para encontrar tu IP local:
+            - Windows: Abre cmd y escribe `ipconfig`. Busca la dirección IPv4 de tu adaptador de red activo (WiFi o Ethernet).
+            - macOS/Linux: Abre la terminal y escribe `ifconfig` o `ip addr`. Busca la dirección inet de tu adaptador.
+            Ejemplo si tu IP local es 192.168.1.100:
+        -->
+        <!-- <domain includeSubdomains="true">192.168.1.100</domain> -->
+    </domain-config>
+
+    <!--
+        Opcional: Configuración base para todos los demás dominios.
+        Si no la incluyes, se usará la política por defecto del sistema (que es no permitir cleartext).
+        Si la incluyes, asegúrate de que es lo que quieres. Para la mayoría de los casos,
+        solo necesitas la configuración de dominio específica de arriba.
+    -->
+    <!--
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    -->
+</network-security-config>

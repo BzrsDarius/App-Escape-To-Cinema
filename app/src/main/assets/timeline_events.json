@@ -1,0 +1,822 @@
+[
+  {
+    "id": "tl_022",
+    "year": 1826,
+    "title": "Primera Fotografía Permanente: 'Vista desde la ventana en Le Gras'",
+    "description": "Joseph Nicéphore Niépce captura la primera fotografía permanente conocida, 'Vista desde la ventana en Le Gras', un precursor esencial para el desarrollo del cine.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg/800px-View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg"
+  },
+  {
+    "id": "tl_001_original",
+    "year": 1834,
+    "title": "Invención del Zoótropo",
+    "description": "William George Horner inventa el zoótropo, un dispositivo que crea la ilusión de movimiento mediante una secuencia de dibujos o fotografías, sentando bases para la animación y el cine.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Zoetrope_animated.gif/800px-Zoetrope_animated.gif"
+  },
+  {
+    "id": "tl_023",
+    "year": 1839,
+    "month": 8,
+    "day": 19,
+    "title": "Presentación Pública del Daguerrotipo",
+    "description": "Louis Daguerre presenta públicamente el proceso del daguerrotipo en París, popularizando la fotografía y acercando el mundo a la imagen en movimiento.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Boulevard_du_Temple_by_Daguerre.jpg/800px-Boulevard_du_Temple_by_Daguerre.jpg"
+  },
+  {
+    "id": "tl_002_original",
+    "year": 1878,
+    "title": "El Caballo en Movimiento de Muybridge",
+    "description": "Eadweard Muybridge utiliza múltiples cámaras para capturar la secuencia de movimiento de un caballo al galope, demostrando que todas las patas del caballo se levantan del suelo simultáneamente en un punto de su carrera, un avance clave para la cronofotografía.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Muybridge_race_horse_animated.gif/800px-Muybridge_race_horse_animated.gif"
+  },
+  {
+    "id": "tl_024",
+    "year": 1888,
+    "month": 10,
+    "day": 14,
+    "title": "Filmación de 'La Escena del Jardín de Roundhay'",
+    "description": "Louis Le Prince filma 'La Escena del Jardín de Roundhay', considerada por muchos historiadores como la primera película cinematográfica existente.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roundhay_Garden_Scene_remastered_and_stabilized.gif/800px-Roundhay_Garden_Scene_remastered_and_stabilized.gif",
+    "relatedMovieTMDbId": 16463
+  },
+  {
+    "id": "tl_067",
+    "year": 1889,
+    "title": "Eastman Kodak comercializa la película de celuloide flexible",
+    "description": "George Eastman comienza a comercializar la película de celuloide transparente y flexible, un material crucial que Thomas Edison y otros pioneros utilizarían para sus cámaras y proyectores cinematográficos.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kodak_No._1_camera_and_case.jpg/800px-Kodak_No._1_camera_and_case.jpg"
+  },
+  {
+    "id": "tl_025",
+    "year": 1891,
+    "month": 8,
+    "day": 24,
+    "title": "Patente del Kinetoscopio de Edison",
+    "description": "Thomas Edison patenta el Kinetoscopio, un dispositivo de visualización individual de películas, un paso crucial hacia la proyección pública.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Kinetoscope_parlor.jpg/800px-Kinetoscope_parlor.jpg"
+  },
+  {
+    "id": "tl_001",
+    "year": 1895,
+    "month": 12,
+    "day": 28,
+    "title": "Primera Proyección Pública de los Lumière",
+    "description": "Los hermanos Lumière realizan la primera proyección cinematográfica pública y de pago en el Salon Indien du Grand Café en París, marcando un hito en el nacimiento del cine.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Grand_Caf%C3%A9_Context.jpg/800px-Grand_Caf%C3%A9_Context.jpg"
+  },
+  {
+    "id": "tl_026",
+    "year": 1896,
+    "title": "Alice Guy-Blaché dirige 'La Fée aux Choux'",
+    "description": "Alice Guy-Blaché, una de las primeras cineastas y pionera del cine narrativo, dirige 'La Fée aux Choux' (El Hada de las Coles), considerada una de las primeras películas de ficción con argumento.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/La_F%C3%A9e_aux_choux_1896.jpg/800px-La_F%C3%A9e_aux_choux_1896.jpg",
+    "relatedMovieTMDbId": 153367
+  },
+  {
+    "id": "tl_002",
+    "year": 1902,
+    "title": "Estreno de 'Viaje a la Luna'",
+    "description": "Georges Méliès estrena 'Viaje a la Luna' (Le Voyage dans la Lune), una de las primeras películas de ciencia ficción y pionera en efectos especiales.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Le_Voyage_dans_la_lune.jpg/800px-Le_Voyage_dans_la_lune.jpg",
+    "relatedMovieTMDbId": 775
+  },
+  {
+    "id": "tl_015",
+    "year": 1903,
+    "title": "Estreno de 'Asalto y Robo de un Tren'",
+    "description": "Edwin S. Porter dirige 'Asalto y Robo de un Tren' (The Great Train Robbery), una de las primeras películas en utilizar técnicas narrativas complejas como el montaje paralelo y el primer plano.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/The_Great_Train_Robbery_%281903%29_poster.jpg/800px-The_Great_Train_Robbery_%281903%29_poster.jpg",
+    "relatedMovieTMDbId": 5698
+  },
+  {
+    "id": "tl_068",
+    "year": 1906,
+    "month": 12,
+    "day": 26,
+    "title": "Estreno de 'The Story of the Kelly Gang'",
+    "description": "Se estrena en Australia 'The Story of the Kelly Gang', considerada la primera película de largometraje del mundo (aproximadamente 60 minutos).",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Story_of_the_kelly_gang_poster_2.jpg/800px-Story_of_the_kelly_gang_poster_2.jpg",
+    "relatedMovieTMDbId": 31107
+  },
+  {
+    "id": "tl_027",
+    "year": 1912,
+    "month": 4,
+    "day": 30,
+    "title": "Fundación de Universal Film Manufacturing Company",
+    "description": "Carl Laemmle funda la Universal Film Manufacturing Company, que se convertiría en Universal Pictures, uno de los estudios más antiguos y grandes de Hollywood.",
+    "eventType": "STUDIO_FORMATION",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Universal_Pictures_logo.svg/800px-Universal_Pictures_logo.svg.png",
+    "relatedStudioTMDbId": 33
+  },
+  {
+    "id": "tl_069",
+    "year": 1914,
+    "month": 2,
+    "day": 7,
+    "title": "Charles Chaplin debuta como 'El Vagabundo' en 'Kid Auto Races at Venice'",
+    "description": "Charles Chaplin introduce por primera vez a su icónico personaje 'El Vagabundo' (The Tramp) en la película 'Kid Auto Races at Venice', convirtiéndose en una estrella mundial del cine mudo.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 180,
+    "relatedMovieTMDbId": 22885,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Charlie_Chaplin.jpg/800px-Charlie_Chaplin.jpg"
+  },
+  {
+    "id": "tl_007",
+    "year": 1915,
+    "title": "Estreno de 'El Nacimiento de una Nación'",
+    "description": "D.W. Griffith dirige 'El Nacimiento de una Nación', una película épica y técnicamente innovadora, pero también controvertida por su contenido racista. Marcó un antes y un después en la narrativa cinematográfica.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/The_Birth_of_a_Nation_poster.jpg/800px-The_Birth_of_a_Nation_poster.jpg",
+    "relatedMovieTMDbId": 618
+  },
+  {
+    "id": "tl_028",
+    "year": 1916,
+    "month": 9,
+    "day": 5,
+    "title": "Estreno de 'Intolerancia'",
+    "description": "D.W. Griffith estrena 'Intolerancia', una película épica con cuatro historias paralelas, destacada por su escala y técnicas cinematográficas innovadoras para la época.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Intolerance_%281916_film%29_poster.jpg/800px-Intolerance_%281916_film%29_poster.jpg",
+    "relatedMovieTMDbId": 3059
+  },
+  {
+    "id": "tl_070",
+    "year": 1919,
+    "month": 2,
+    "day": 5,
+    "title": "Fundación de United Artists",
+    "description": "Mary Pickford, Douglas Fairbanks, Charles Chaplin y D.W. Griffith fundan United Artists, un estudio creado por artistas para controlar sus propios intereses en lugar de depender de los grandes estudios comerciales.",
+    "eventType": "STUDIO_FORMATION",
+    "relatedStudioTMDbId": 60,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/United_Artists_Logo_1919.svg/800px-United_Artists_Logo_1919.svg.png"
+  },
+  {
+    "id": "tl_016",
+    "year": 1920,
+    "month": 2,
+    "day": 26,
+    "title": "Estreno de 'El Gabinete del Dr. Caligari'",
+    "description": "Robert Wiene estrena 'El Gabinete del Dr. Caligari', obra cumbre del expresionismo alemán, influyente por su estilo visual distorsionado y narración subjetiva.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cabinet_des_Dr_Caligari.jpg/800px-Cabinet_des_Dr_Caligari.jpg",
+    "relatedMovieTMDbId": 99
+  },
+  {
+    "id": "tl_029",
+    "year": 1922,
+    "month": 3,
+    "day": 4,
+    "title": "Estreno de 'Nosferatu, eine Symphonie des Grauens'",
+    "description": "F.W. Murnau dirige 'Nosferatu', una obra maestra no autorizada de 'Drácula' y un hito del cine de terror y el expresionismo alemán.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Nosferatu_Schrecken.jpg/800px-Nosferatu_Schrecken.jpg",
+    "relatedMovieTMDbId": 653
+  },
+  {
+    "id": "tl_030",
+    "year": 1923,
+    "month": 4,
+    "day": 4,
+    "title": "Fundación de Warner Bros. Pictures, Inc.",
+    "description": "Los hermanos Warner (Harry, Albert, Sam y Jack) fundan Warner Bros. Pictures, Inc., que se convertiría en un gigante de la industria cinematográfica.",
+    "eventType": "STUDIO_FORMATION",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/800px-Warner_Bros_logo.svg.png",
+    "relatedStudioTMDbId": 174
+  },
+  {
+    "id": "tl_031",
+    "year": 1924,
+    "month": 4,
+    "day": 17,
+    "title": "Fundación de Metro-Goldwyn-Mayer (MGM)",
+    "description": "Marcus Loew orquesta la fusión de Metro Pictures, Goldwyn Pictures y Louis B. Mayer Pictures para formar MGM, el estudio de las estrellas.",
+    "eventType": "STUDIO_FORMATION",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Metro-Goldwyn-Mayer_logo_alternate.svg/800px-Metro-Goldwyn-Mayer_logo_alternate.svg.png",
+    "relatedStudioTMDbId": 8411
+  },
+  {
+    "id": "tl_008",
+    "year": 1925,
+    "title": "Estreno de 'El Acorazado Potemkin'",
+    "description": "Sergei Eisenstein revoluciona el lenguaje cinematográfico con el montaje de atracciones en 'El Acorazado Potemkin'.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Battleship_Potemkin_poster.jpg/800px-Battleship_Potemkin_poster.jpg",
+    "relatedMovieTMDbId": 3636
+  },
+  {
+    "id": "tl_032",
+    "year": 1927,
+    "month": 1,
+    "day": 10,
+    "title": "Estreno de 'Metrópolis'",
+    "description": "Fritz Lang dirige 'Metrópolis', una película de ciencia ficción expresionista alemana pionera, conocida por su visión futurista y efectos visuales.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Metropolisposter.jpg/800px-Metropolisposter.jpg",
+    "relatedMovieTMDbId": 19
+  },
+  {
+    "id": "tl_003",
+    "year": 1927,
+    "title": "Estreno de 'El Cantor de Jazz'",
+    "description": "Se estrena 'El Cantor de Jazz' (The Jazz Singer), la primera película sonora (parcialmente) que revolucionó la industria cinematográfica.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Jazz_Singer_1927_Al_Jolson.jpg/800px-The_Jazz_Singer_1927_Al_Jolson.jpg",
+    "relatedMovieTMDbId": 939
+  },
+  {
+    "id": "tl_033",
+    "year": 1928,
+    "month": 11,
+    "day": 18,
+    "title": "Estreno de 'Steamboat Willie' y nacimiento de Mickey Mouse",
+    "description": "Walt Disney estrena 'Steamboat Willie', el primer cortometraje sonoro sincronizado de dibujos animados, presentando al icónico Mickey Mouse.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Steamboat_Willie_1928_poster.jpg/800px-Steamboat_Willie_1928_poster.jpg",
+    "relatedMovieTMDbId": 53565
+  },
+  {
+    "id": "tl_034",
+    "year": 1929,
+    "month": 5,
+    "day": 16,
+    "title": "Primera Ceremonia de los Premios de la Academia (Óscar)",
+    "description": "La Academia de Artes y Ciencias Cinematográficas celebra su primera ceremonia de premios, reconociendo la excelencia en los logros cinematográficos.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1st_Academy_Awards_poster.jpg/800px-1st_Academy_Awards_poster.jpg"
+  },
+  {
+    "id": "tl_035",
+    "year": 1930,
+    "title": "Adopción del Código de Producción Cinematográfica (Código Hays)",
+    "description": "La Asociación de Productores de Películas de América (MPPDA) adopta el Código Hays, un conjunto de directrices morales que rigieron la producción de películas en Hollywood durante décadas.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hayscodeseal.jpg/800px-Hayscodeseal.jpg"
+  },
+  {
+    "id": "tl_036",
+    "year": 1932,
+    "month": 11,
+    "day": 18,
+    "title": "Walt Disney recibe Óscar honorífico por la creación de Mickey Mouse",
+    "description": "En la 5ª ceremonia de los Premios de la Academia, Walt Disney recibe un Óscar honorífico por la creación de Mickey Mouse, reconociendo su impacto cultural.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 688,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Walt_Disney_1946.JPG/800px-Walt_Disney_1946.JPG"
+  },
+  {
+    "id": "tl_071",
+    "year": 1933,
+    "month": 3,
+    "day": 2,
+    "title": "Estreno de 'King Kong'",
+    "description": "Se estrena 'King Kong', una película revolucionaria por sus efectos especiales de stop-motion creados por Willis O'Brien, y su icónica criatura gigante.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 254,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/King_Kong_1933_poster.jpg/800px-King_Kong_1933_poster.jpg"
+  },
+  {
+    "id": "tl_017",
+    "year": 1935,
+    "month": 6,
+    "day": 13,
+    "title": "Primer largometraje en Technicolor de tres bandas: 'La Feria de la Vanidad'",
+    "description": "Se estrena 'La Feria de la Vanidad' (Becky Sharp), el primer largometraje filmado íntegramente con el proceso Technicolor de tres bandas, marcando un hito en el cine en color.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Becky_Sharp_lobby_card.jpg/800px-Becky_Sharp_lobby_card.jpg",
+    "relatedMovieTMDbId": 57394
+  },
+  {
+    "id": "tl_037",
+    "year": 1937,
+    "month": 12,
+    "day": 21,
+    "title": "Estreno de 'Blancanieves y los Siete Enanitos'",
+    "description": "Walt Disney Productions estrena 'Blancanieves y los Siete Enanitos', el primer largometraje de animación en celuloide de la historia y un éxito rotundo.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Snow_White_1937_poster.png/800px-Snow_White_1937_poster.png",
+    "relatedMovieTMDbId": 408
+  },
+  {
+    "id": "tl_004",
+    "year": 1939,
+    "title": "Edad de Oro de Hollywood: 'Lo que el Viento se Llevó' y 'El Mago de Oz'",
+    "description": "1939 es considerado uno de los años cumbre de la Edad de Oro de Hollywood, con estrenos como 'Lo que el Viento se Llevó' y 'El Mago de Oz'.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gone_With_The_Wind_poster.jpg/800px-Gone_With_The_Wind_poster.jpg"
+  },
+  {
+    "id": "tl_009",
+    "year": 1941,
+    "title": "Estreno de 'Ciudadano Kane'",
+    "description": "Orson Welles dirige y protagoniza 'Ciudadano Kane', aclamada por sus innovaciones narrativas y técnicas como la profundidad de campo.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/800px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg",
+    "relatedMovieTMDbId": 15
+  },
+  {
+    "id": "tl_038",
+    "year": 1946,
+    "month": 12,
+    "day": 20,
+    "title": "Estreno de '¡Qué Bello es Vivir!'",
+    "description": "Frank Capra dirige '¡Qué Bello es Vivir!', una película que, aunque inicialmente no fue un gran éxito, se convirtió en un clásico navideño atemporal.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 1585,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/ItsAWonderfulLife1946poster.jpg/800px-ItsAWonderfulLife1946poster.jpg"
+  },
+  {
+    "id": "tl_018",
+    "year": 1948,
+    "month": 11,
+    "day": 24,
+    "title": "Estreno de 'Ladrón de Bicicletas' y auge del Neorrealismo Italiano",
+    "description": "Vittorio De Sica estrena 'Ladrón de Bicicletas', una obra maestra del neorrealismo italiano, movimiento caracterizado por su realismo social, rodaje en exteriores y uso de actores no profesionales.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ladri_di_biciclette_-_poster_Stellato_1948.jpg/800px-Ladri_di_biciclette_-_poster_Stellato_1948.jpg",
+    "relatedMovieTMDbId": 5156
+  },
+  {
+    "id": "tl_010",
+    "year": 1950,
+    "month": 8,
+    "day": 25,
+    "title": "Estreno de 'Rashomon'",
+    "description": "Akira Kurosawa dirige 'Rashomon', introduciendo al público occidental el cine japonés y popularizando el 'efecto Rashomon' en la narrativa.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rashomon_poster_2.jpg/800px-Rashomon_poster_2.jpg",
+    "relatedMovieTMDbId": 548
+  },
+  {
+    "id": "tl_039",
+    "year": 1952,
+    "month": 4,
+    "day": 11,
+    "title": "Estreno de 'Cantando Bajo la Lluvia'",
+    "description": "Stanley Donen y Gene Kelly dirigen y protagonizan 'Cantando Bajo la Lluvia', considerado uno de los mejores musicales de todos los tiempos.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 872,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Singin%27_in_the_Rain_%281952_poster%29.jpg/800px-Singin%27_in_the_Rain_%281952_poster%29.jpg"
+  },
+  {
+    "id": "tl_072",
+    "year": 1953,
+    "month": 9,
+    "day": 16,
+    "title": "Introducción del CinemaScope con 'La Túnica Sagrada'",
+    "description": "20th Century Fox estrena 'La Túnica Sagrada' (The Robe), la primera película en CinemaScope, un formato de pantalla ancha diseñado para competir con la creciente popularidad de la televisión.",
+    "eventType": "TECHNOLOGY",
+    "relatedMovieTMDbId": 21625,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/The_Robe_CinemaScope_trailer_title.jpg/800px-The_Robe_CinemaScope_trailer_title.jpg"
+  },
+  {
+    "id": "tl_040",
+    "year": 1954,
+    "month": 4,
+    "day": 26,
+    "title": "Estreno de 'Los Siete Samuráis'",
+    "description": "Akira Kurosawa dirige 'Los Siete Samuráis', una película épica japonesa influyente que ha sido adaptada y referenciada en numerosas ocasiones.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 346,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Seven_Samurai_poster.jpg/800px-Seven_Samurai_poster.jpg"
+  },
+  {
+    "id": "tl_041",
+    "year": 1955,
+    "month": 9,
+    "day": 30,
+    "title": "Fallecimiento de James Dean",
+    "description": "El actor James Dean, ícono cultural de la rebeldía juvenil, fallece en un accidente automovilístico a la edad de 24 años, consolidando su estatus de leyenda.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 23754,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/James_Dean_promo_photo_for_East_of_Eden.jpg/800px-James_Dean_promo_photo_for_East_of_Eden.jpg"
+  },
+  {
+    "id": "tl_073",
+    "year": 1957,
+    "month": 1,
+    "day": 14,
+    "title": "Fallecimiento de Humphrey Bogart",
+    "description": "El legendario actor Humphrey Bogart, ícono del cine negro y estrella de películas como 'Casablanca' y 'El Halcón Maltés', fallece a los 57 años.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 22,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Humphrey_Bogart_1940s.jpg/800px-Humphrey_Bogart_1940s.jpg"
+  },
+  {
+    "id": "tl_042",
+    "year": 1959,
+    "month": 3,
+    "day": 29,
+    "title": "Estreno de 'Con Faldas y a lo Loco'",
+    "description": "Billy Wilder dirige 'Con Faldas y a lo Loco', una comedia clásica protagonizada por Marilyn Monroe, Tony Curtis y Jack Lemmon, aclamada por su ingenio y transgresión de normas sociales.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 433,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Some_Like_It_Hot_poster.jpg/800px-Some_Like_It_Hot_poster.jpg"
+  },
+  {
+    "id": "tl_043",
+    "year": 1960,
+    "month": 6,
+    "day": 16,
+    "title": "Estreno de 'Psicosis'",
+    "description": "Alfred Hitchcock revoluciona el cine de terror con 'Psicosis', una película que desafió las convenciones narrativas y de censura de la época.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 539,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960_film_poster%29.jpg/800px-Psycho_%281960_film_poster%29.jpg"
+  },
+  {
+    "id": "tl_011",
+    "year": 1960,
+    "title": "Nouvelle Vague Francesa en auge",
+    "description": "Directores como Jean-Luc Godard ('Al final de la escapada') y François Truffaut ('Los 400 golpes') definen la Nouvelle Vague, un movimiento que rompió con las convenciones del cine tradicional.",
+    "eventType": "CINEMATIC_MOVEMENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/A_bout_de_souffle_poster.jpg/800px-A_bout_de_souffle_poster.jpg"
+  },
+  {
+    "id": "tl_074",
+    "year": 1962,
+    "month": 8,
+    "day": 4,
+    "title": "Fallecimiento de Marilyn Monroe",
+    "description": "Marilyn Monroe, una de las actrices más icónicas y símbolo sexual de Hollywood, fallece a los 36 años, dejando un legado imborrable.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 4620,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Marilyn_Monroe%2C_John_F._Kennedy_and_Robert_F._Kennedy.jpg/800px-Marilyn_Monroe%2C_John_F._Kennedy_and_Robert_F._Kennedy.jpg"
+  },
+  {
+    "id": "tl_044",
+    "year": 1962,
+    "month": 12,
+    "day": 10,
+    "title": "Estreno de 'Lawrence de Arabia'",
+    "description": "David Lean dirige 'Lawrence de Arabia', una épica histórica aclamada por su cinematografía, actuaciones y escala monumental, filmada en Super Panavision 70.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 947,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lawrence_of_arabia_ver1_xxlg.jpg/800px-Lawrence_of_arabia_ver1_xxlg.jpg"
+  },
+  {
+    "id": "tl_045",
+    "year": 1964,
+    "month": 1,
+    "day": 29,
+    "title": "Estreno de 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb'",
+    "description": "Stanley Kubrick dirige esta sátira de la Guerra Fría, una comedia negra que critica la política nuclear y la paranoia de la época.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 935,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dr._Strangelove_poster.jpg/800px-Dr._Strangelove_poster.jpg"
+  },
+  {
+    "id": "tl_046",
+    "year": 1968,
+    "month": 4,
+    "day": 2,
+    "title": "Estreno de '2001: Una Odisea del Espacio'",
+    "description": "Stanley Kubrick y Arthur C. Clarke presentan '2001: Una Odisea del Espacio', una obra maestra de la ciencia ficción con efectos visuales revolucionarios y profundas reflexiones filosóficas.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 62,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2001_A_Space_Odyssey_%281968%29_theatrical_poster.jpg/800px-2001_A_Space_Odyssey_%281968%29_theatrical_poster.jpg"
+  },
+  {
+    "id": "tl_012",
+    "year": 1968,
+    "title": "Fin del Código Hays y nacimiento del sistema de calificación MPAA",
+    "description": "El restrictivo Código Hays de producción cinematográfica es reemplazado por el sistema de calificación por edades de la MPAA en Estados Unidos, permitiendo mayor libertad creativa.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/MPAA_film_rating_system_logos.svg/1024px-MPAA_film_rating_system_logos.svg.png"
+  },
+  {
+    "id": "tl_047",
+    "year": 1971,
+    "month": 12,
+    "day": 19,
+    "title": "Estreno de 'La Naranja Mecánica'",
+    "description": "Stanley Kubrick dirige 'La Naranja Mecánica', una película distópica controvertida por su violencia y exploración de la libre voluntad.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 185,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Clockworkorange.jpg/800px-Clockworkorange.jpg"
+  },
+  {
+    "id": "tl_019",
+    "year": 1972,
+    "month": 3,
+    "day": 24,
+    "title": "Estreno de 'El Padrino'",
+    "description": "Francis Ford Coppola dirige 'El Padrino', una película que redefinió el género de gángsters y se convirtió en un pilar del Nuevo Hollywood, aclamada por su dirección, guion y actuaciones.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Godfather_1972.jpg/800px-The_Godfather_1972.jpg",
+    "relatedMovieTMDbId": 238
+  },
+  {
+    "id": "tl_048",
+    "year": 1975,
+    "month": 6,
+    "day": 20,
+    "title": "Estreno de 'Tiburón' y el inicio de la era del blockbuster",
+    "description": "Steven Spielberg dirige 'Tiburón', una película de suspenso que se convirtió en un fenómeno cultural y es considerada el primer blockbuster de verano moderno, cambiando las estrategias de distribución y marketing.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 578,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Jaws_poster.jpg/800px-Jaws_poster.jpg"
+  },
+  {
+    "id": "tl_049",
+    "year": 1976,
+    "month": 2,
+    "day": 8,
+    "title": "Estreno de 'Taxi Driver'",
+    "description": "Martin Scorsese dirige 'Taxi Driver', un oscuro drama psicológico protagonizado por Robert De Niro que captura la alienación urbana de la postguerra de Vietnam.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 103,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Taxi_Driver_poster.JPG/800px-Taxi_Driver_poster.JPG"
+  },
+  {
+    "id": "tl_005",
+    "year": 1977,
+    "title": "Estreno de 'Star Wars: Episodio IV – Una Nueva Esperanza'",
+    "description": "George Lucas estrena 'Star Wars', cambiando el panorama del cine de ciencia ficción y los blockbusters de verano.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png",
+    "relatedMovieTMDbId": 11
+  },
+  {
+    "id": "tl_075",
+    "year": 1979,
+    "month": 5,
+    "day": 25,
+    "title": "Estreno de 'Alien, el Octavo Pasajero'",
+    "description": "Ridley Scott dirige 'Alien', una innovadora película de ciencia ficción y terror, aclamada por su diseño de producción (H.R. Giger), suspenso y su fuerte protagonista femenina.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 348,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Alien_movie_poster.jpg/800px-Alien_movie_poster.jpg"
+  },
+  {
+    "id": "tl_050",
+    "year": 1980,
+    "month": 4,
+    "day": 29,
+    "title": "Fallecimiento de Alfred Hitchcock",
+    "description": "Alfred Hitchcock, el 'Maestro del Suspenso' y uno de los directores más influyentes de la historia del cine, fallece a los 80 años.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 2636,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Alfred_Hitchcock_%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3_%EF%BC%88Kalyan%EF%BC%89.jpg/800px-Alfred_Hitchcock_%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3_%EF%BC%88Kalyan%EF%BC%89.jpg"
+  },
+  {
+    "id": "tl_006",
+    "year": 1982,
+    "title": "Estreno de 'Blade Runner' y 'E.T. el Extraterrestre'",
+    "description": "Un año clave para la ciencia ficción con el estreno de dos películas icónicas: 'Blade Runner' de Ridley Scott y 'E.T.' de Steven Spielberg.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Blade_Runner_poster.jpg/800px-Blade_Runner_poster.jpg"
+  },
+  {
+    "id": "tl_051",
+    "year": 1984,
+    "month": 10,
+    "day": 26,
+    "title": "Estreno de 'Terminator'",
+    "description": "James Cameron dirige 'Terminator', una película de ciencia ficción y acción que lanzó la carrera de Arnold Schwarzenegger y se destacó por sus efectos especiales y narrativa.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 218,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Terminator1984movieposter.jpg/800px-Terminator1984movieposter.jpg"
+  },
+  {
+    "id": "tl_052",
+    "year": 1985,
+    "month": 6,
+    "day": 15,
+    "title": "Fundación de Studio Ghibli",
+    "description": "Hayao Miyazaki, Isao Takahata y Toshio Suzuki fundan Studio Ghibli, un estudio de animación japonés aclamado mundialmente por sus películas artísticas y emotivas.",
+    "eventType": "STUDIO_FORMATION",
+    "relatedStudioTMDbId": 10342,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/800px-Studio_Ghibli_logo.svg.png"
+  },
+  {
+    "id": "tl_053",
+    "year": 1989,
+    "month": 11,
+    "day": 9,
+    "title": "Caída del Muro de Berlín",
+    "description": "La caída del Muro de Berlín simboliza el fin de la Guerra Fría y abre nuevas narrativas y colaboraciones en el cine europeo e internacional.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Brandenburger_Tor_abends.jpg/800px-Brandenburger_Tor_abends.jpg"
+  },
+  {
+    "id": "tl_054",
+    "year": 1990,
+    "month": 9,
+    "day": 19,
+    "title": "Estreno de 'Uno de los Nuestros' (Goodfellas)",
+    "description": "Martin Scorsese dirige 'Goodfellas', una película de gángsters aclamada por su estilo enérgico, realismo y actuaciones, considerada una obra maestra del género.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 769,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Goodfellas.jpg/800px-Goodfellas.jpg"
+  },
+  {
+    "id": "tl_076",
+    "year": 1991,
+    "month": 7,
+    "day": 3,
+    "title": "Estreno de 'Terminator 2: El Juicio Final' y avance en CGI",
+    "description": "'Terminator 2' de James Cameron establece un nuevo estándar para los efectos visuales generados por computadora (CGI), especialmente con el personaje del T-1000.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 280,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Terminator2poster.jpg/800px-Terminator2poster.jpg"
+  },
+  {
+    "id": "tl_013",
+    "year": 1993,
+    "month": 6,
+    "day": 11,
+    "title": "Revolución CGI con 'Jurassic Park'",
+    "description": "Steven Spielberg utiliza innovadores efectos CGI para dar vida a los dinosaurios en 'Jurassic Park', marcando un hito en los efectos visuales y cambiando para siempre la producción de blockbusters.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jurassic_Park_poster.jpg/800px-Jurassic_Park_poster.jpg",
+    "relatedMovieTMDbId": 329
+  },
+  {
+    "id": "tl_055",
+    "year": 1994,
+    "month": 10,
+    "day": 14,
+    "title": "Estreno de 'Pulp Fiction' y el auge del cine independiente",
+    "description": "Quentin Tarantino estrena 'Pulp Fiction', una película que revitalizó el cine independiente con su narrativa no lineal, diálogos ingeniosos y estilo único, ganando la Palma de Oro en Cannes.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 680,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pulp_Fiction_%281994%29_poster.jpg/800px-Pulp_Fiction_%281994%29_poster.jpg"
+  },
+  {
+    "id": "tl_020",
+    "year": 1995,
+    "month": 11,
+    "day": 22,
+    "title": "Estreno de 'Toy Story', primer largometraje animado por CGI",
+    "description": "Pixar Animation Studios estrena 'Toy Story', el primer largometraje completamente animado por computadora, revolucionando la industria de la animación y el cine familiar.",
+    "eventType": "MOVIE_RELEASE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/800px-Toy_Story.jpg",
+    "relatedMovieTMDbId": 862
+  },
+  {
+    "id": "tl_056",
+    "year": 1997,
+    "month": 12,
+    "day": 19,
+    "title": "Estreno de 'Titanic'",
+    "description": "James Cameron dirige 'Titanic', una épica romántica y de desastre que se convirtió en la película más taquillera de todos los tiempos (hasta 'Avatar') y ganó 11 premios Óscar.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 597,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Titanic_%281997_film%29_poster.png/800px-Titanic_%281997_film%29_poster.png"
+  },
+  {
+    "id": "tl_057",
+    "year": 1999,
+    "month": 3,
+    "day": 31,
+    "title": "Estreno de 'Matrix' y la popularización del 'bullet time'",
+    "description": "Las hermanas Wachowski dirigen 'Matrix', una película de ciencia ficción que revolucionó los efectos visuales, especialmente con la técnica del 'bullet time', e influyó en el cine de acción.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 603,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/800px-The_Matrix_Poster.jpg"
+  },
+  {
+    "id": "tl_058",
+    "year": 2001,
+    "month": 12,
+    "day": 19,
+    "title": "Estreno de 'El Señor de los Anillos: La Comunidad del Anillo'",
+    "description": "Peter Jackson da inicio a la aclamada trilogía de 'El Señor de los Anillos', una adaptación épica de la obra de J.R.R. Tolkien que marcó un hito en el cine de fantasía.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 120,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29.jpg/800px-The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29.jpg"
+  },
+  {
+    "id": "tl_077",
+    "year": 2002,
+    "month": 5,
+    "day": 16,
+    "title": "'Star Wars: Episodio II' primera gran producción filmada y proyectada digitalmente",
+    "description": "'Star Wars: Episodio II – El Ataque de los Clones' es una de las primeras películas de gran presupuesto en ser filmada completamente en digital de alta definición y proyectada digitalmente en cines seleccionados.",
+    "eventType": "TECHNOLOGY",
+    "relatedMovieTMDbId": 1894,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Star_Wars_Episode_II_Attack_of_the_Clones_poster.jpg/800px-Star_Wars_Episode_II_Attack_of_the_Clones_poster.jpg"
+  },
+  {
+    "id": "tl_078",
+    "year": 2006,
+    "month": 11,
+    "day": 20,
+    "title": "Fallecimiento de Robert Altman",
+    "description": "El influyente director Robert Altman, conocido por su estilo naturalista, narrativas corales y uso de la improvisación ('M*A*S*H', 'Nashville'), fallece a los 81 años.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 1100,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Robert_Altman_Cannes.jpg/800px-Robert_Altman_Cannes.jpg"
+  },
+  {
+    "id": "tl_059",
+    "year": 2008,
+    "month": 7,
+    "day": 18,
+    "title": "Estreno de 'El Caballero Oscuro'",
+    "description": "Christopher Nolan dirige 'El Caballero Oscuro', una película de superhéroes aclamada por su tono oscuro, complejidad narrativa y la icónica interpretación de Heath Ledger como el Joker.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 155,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/The_Dark_Knight_%282008_film%29.jpg/800px-The_Dark_Knight_%282008_film%29.jpg"
+  },
+  {
+    "id": "tl_014",
+    "year": 2009,
+    "month": 12,
+    "day": 18,
+    "title": "Auge del 3D digital con 'Avatar'",
+    "description": "'Avatar' de James Cameron impulsa la popularidad y la tecnología del cine 3D digital moderno, convirtiéndose en la película más taquillera de la historia hasta ese momento.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Avatar_%282009_film%29_poster.jpg/800px-Avatar_%282009_film%29_poster.jpg",
+    "relatedMovieTMDbId": 19995
+  },
+  {
+    "id": "tl_060",
+    "year": 2010,
+    "title": "Netflix inicia expansión internacional y apuesta por contenido original",
+    "description": "Netflix comienza su expansión global de streaming y anuncia planes para producir contenido original, marcando un cambio significativo en la distribución y consumo de cine y series.",
+    "eventType": "TECHNOLOGY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/800px-Netflix_2015_logo.svg.png"
+  },
+  {
+    "id": "tl_061",
+    "year": 2014,
+    "month": 8,
+    "day": 11,
+    "title": "Fallecimiento de Robin Williams",
+    "description": "El aclamado actor y comediante Robin Williams fallece, dejando un legado de interpretaciones memorables tanto en comedia como en drama.",
+    "eventType": "PERSON_MILESTONE",
+    "relatedPersonTMDbId": 2157,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Robin_Williams_lecturing_at_the_Commonwealth_Club_of_California_in_2009.jpg/800px-Robin_Williams_lecturing_at_the_Commonwealth_Club_of_California_in_2009.jpg"
+  },
+  {
+    "id": "tl_062",
+    "year": 2016,
+    "title": "#OscarsSoWhite y el debate sobre la diversidad en Hollywood",
+    "description": "Por segundo año consecutivo, la falta de nominados no blancos en las principales categorías de actuación de los Óscar genera la campaña #OscarsSoWhite, intensificando el debate sobre la diversidad y representación en la industria.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Oscar_statuette.jpg/800px-Oscar_statuette.jpg"
+  },
+  {
+    "id": "tl_063",
+    "year": 2017,
+    "title": "El movimiento #MeToo sacude Hollywood",
+    "description": "El movimiento #MeToo cobra fuerza en Hollywood tras las acusaciones contra Harvey Weinstein, exponiendo el acoso y abuso sexual sistémico en la industria y provocando un cambio cultural.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Me_Too_rally_Hollywood_2017_12.jpg/800px-Me_Too_rally_Hollywood_2017_12.jpg"
+  },
+  {
+    "id": "tl_064",
+    "year": 2019,
+    "month": 4,
+    "day": 26,
+    "title": "Estreno de 'Avengers: Endgame', récord de taquilla mundial",
+    "description": "'Avengers: Endgame' se convierte en la película más taquillera de todos los tiempos (superando a 'Avatar' temporalmente), culminando una saga de 22 películas del Universo Cinematográfico de Marvel.",
+    "eventType": "MOVIE_RELEASE",
+    "relatedMovieTMDbId": 299534,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Avengers_Endgame_poster.jpg/800px-Avengers_Endgame_poster.jpg"
+  },
+  {
+    "id": "tl_021",
+    "year": 2020,
+    "month": 2,
+    "day": 9,
+    "title": "'Parásitos' gana el Óscar a Mejor Película",
+    "description": "La película surcoreana 'Parásitos' (Gisaengchung) de Bong Joon-ho hace historia al ser la primera película de habla no inglesa en ganar el Óscar a la Mejor Película en la 92ª edición de los premios.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Parasite_%282019_film%29.png/800px-Parasite_%282019_film%29.png",
+    "relatedMovieTMDbId": 496243
+  },
+  {
+    "id": "tl_065",
+    "year": 2020,
+    "title": "Impacto de la pandemia de COVID-19 en la industria del cine",
+    "description": "La pandemia de COVID-19 provoca el cierre masivo de cines, retrasos en producciones y estrenos, y un auge del streaming, transformando la industria cinematográfica global.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Empty_cinema.jpg/800px-Empty_cinema.jpg"
+  },
+  {
+    "id": "tl_066",
+    "year": 2023,
+    "month": 7,
+    "day": 21,
+    "title": "Fenómeno 'Barbenheimer': Estreno simultáneo de 'Barbie' y 'Oppenheimer'",
+    "description": "El estreno simultáneo de 'Barbie' de Greta Gerwig y 'Oppenheimer' de Christopher Nolan genera un fenómeno cultural y de taquilla sin precedentes, impulsando la asistencia a los cines.",
+    "eventType": "HISTORICAL_EVENT",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Barbenheimer_Logos.svg/800px-Barbenheimer_Logos.svg.png"
+  }
+]

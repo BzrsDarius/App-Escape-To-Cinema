@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846579350285",
+    "project_id": "escape-to-cinema",
+    "storage_bucket": "escape-to-cinema.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846579350285:android:6f60f54eb3e0a025fd8e44",
+        "android_client_info": {
+          "package_name": "com.example.appescapetocinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846579350285-k6gts055v9c32l5108mr5l1k4o4tvn4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appescapetocinema",
+            "certificate_hash": "202c409de0de226fe61bd5f4b211e1bbd2955cf0"
+          }
+        },
+        {
+          "client_id": "846579350285-krugsq9qfetlnq66dt1mreg3auc4ls13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4wwnEh-J3pW1QGlou04eXoSuKV1_Q_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846579350285-krugsq9qfetlnq66dt1mreg3auc4ls13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
