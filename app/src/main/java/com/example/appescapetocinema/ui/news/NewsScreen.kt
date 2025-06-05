@@ -47,7 +47,7 @@ fun NewsScreen(
                 title = { Text("Noticias de Cine", style = MaterialTheme.typography.titleLarge) },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                    titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant
+                    titleContentColor = MaterialTheme.colorScheme.primary
                 ),
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {

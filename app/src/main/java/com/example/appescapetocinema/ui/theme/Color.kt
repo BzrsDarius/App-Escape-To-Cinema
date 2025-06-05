@@ -12,7 +12,7 @@ val DarkSurface = Color(0xFF1A1F24)          // Un poco más claro
 val DarkSurfaceVariant = Color(0xFF2C333A)     // Para Cards, Chips, etc.
 
 // Colores Neón de Acento
-val NeonCyan = Color(0xFF00E5FF)             // Primario (botones principales, indicadores activos)
+val NeonPurple = Color(0xFFB266FF)             // Primario (botones principales, indicadores activos)
 val NeonMagenta = Color(0xFFFF00FF)           // Secundario (elementos flotantes, selección)
 val NeonOrange = Color(0xFFFF9100)            // Terciario (acentos menos importantes)
 

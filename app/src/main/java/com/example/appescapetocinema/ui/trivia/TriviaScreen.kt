@@ -54,7 +54,7 @@ fun TriviaScreen(
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                    titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant
+                    titleContentColor = MaterialTheme.colorScheme.primary
                 )
             )
         },

@@ -14,7 +14,7 @@ import androidx.core.view.WindowCompat
 
 // --- Definición del Esquema de Colores Oscuro ---
 private val DarkColorScheme = darkColorScheme(
-    primary = NeonCyan,            // Botones principales, indicadores activos
+    primary = NeonPurple,            // Botones principales, indicadores activos
     onPrimary = OnPrimaryDark,       // Texto/icono sobre primario
     primaryContainer = Color(0xFF004F58), // Contenedor con énfasis primario (más oscuro)
     onPrimaryContainer = Color(0xFF97F0FF),// Texto sobre primaryContainer
@@ -50,7 +50,7 @@ private val DarkColorScheme = darkColorScheme(
     scrim = Color.Black.copy(alpha = 0.4f), // Oscurecimiento para dialogs modales
     inverseSurface = TextWhite.copy(alpha = 0.9f), // Para contenido sobre inversePrimary (raro en tema oscuro)
     inverseOnSurface = DarkBackground, // Texto sobre inverseSurface
-    inversePrimary = NeonCyan.copy(alpha = 0.8f) // Para destacar sobre superficies claras (raro en tema oscuro)
+    inversePrimary = NeonPurple.copy(alpha = 0.8f) // Para destacar sobre superficies claras (raro en tema oscuro)
     // surfaceBright, surfaceDim, surfaceContainer, etc. (Nuevos en M3, puedes definirlos o usar defaults)
 )
 

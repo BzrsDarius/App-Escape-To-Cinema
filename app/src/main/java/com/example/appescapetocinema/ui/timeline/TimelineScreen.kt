@@ -50,7 +50,7 @@ fun TimelineScreenContainer(
                 title = { Text("Línea de Tiempo del Cine", style = MaterialTheme.typography.titleLarge) },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                    titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant // Ajustado para consistencia
+                    titleContentColor = MaterialTheme.colorScheme.primary // Ajustado para consistencia
                 ),
                 navigationIcon = {
                     IconButton(onClick = {

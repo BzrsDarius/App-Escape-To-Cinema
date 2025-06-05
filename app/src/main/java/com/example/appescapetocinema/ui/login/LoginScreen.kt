@@ -106,10 +106,10 @@ fun LoginScreen(
 
     // --- Layout Principal ---
     Box(modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) { // Color tema
-        Column( modifier = Modifier.fillMaxWidth().padding(top = 10.dp, start = 32.dp, end = 32.dp).verticalScroll(scrollState).padding(bottom = 30.dp), horizontalAlignment = Alignment.CenterHorizontally ) {
+        Column( modifier = Modifier.fillMaxWidth().padding(top = 50.dp, start = 32.dp, end = 32.dp).verticalScroll(scrollState).padding(bottom = 10.dp), horizontalAlignment = Alignment.CenterHorizontally ) {
 
             // Logo
-            Image(painter = painterResource(id = R.drawable.logo2), contentDescription = "Logo", modifier = Modifier.height(250.dp).width(250.dp).padding(bottom = 10.dp), contentScale = ContentScale.Fit)
+            Image(painter = painterResource(id = R.drawable.logo2), contentDescription = "Logo", modifier = Modifier.height(300.dp).width(300.dp).padding(bottom = 10.dp), contentScale = ContentScale.Fit)
 
             // Título
             Text("¡Bienvenido de nuevo!", style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.onBackground) // Typo/Color tema
@@ -216,8 +216,8 @@ fun LoginScreen(
             Box(modifier = Modifier.height(40.dp).padding(top = 8.dp)) {
                 if (uiState.isLoading) { CircularProgressIndicator(color = MaterialTheme.colorScheme.primary, modifier = Modifier.align(Alignment.Center)) } // Color tema
                 else {
-                    uiState.errorMessage?.let { Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.Center)) } // Color/Typo tema
-                    uiState.infoMessage?.let { Text(it, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.Center)) } // Color/Typo tema (usamos primary para info)
+                    uiState.errorMessage?.let { Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.Center)) } // Color/Typo tema
+                    uiState.infoMessage?.let { Text(it, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold, modifier = Modifier.align(Alignment.Center)) } // Color/Typo tema (usamos primary para info)
                 }
             }
             Spacer(modifier = Modifier.height(20.dp))

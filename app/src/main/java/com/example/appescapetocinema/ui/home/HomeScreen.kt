@@ -47,7 +47,7 @@ fun HomeScreen(
                     Text(
                         "Escape to Cinema",
                         // --- Usa Tipografía del Tema ---
-                        style = MaterialTheme.typography.headlineMedium // O displaySmall si quieres Rajdhani
+                        style = MaterialTheme.typography.headlineLarge // O displaySmall si quieres Rajdhani
                     )
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
