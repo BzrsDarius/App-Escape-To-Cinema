@@ -1,4 +1,4 @@
-package com.example.appescapetocinema.ui.theme // O tu paquete
+package com.example.appescapetocinema.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -6,7 +6,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.example.appescapetocinema.R // Importa R
+import com.example.appescapetocinema.R
 
 // Definir las familias de fuentes
 val Orbitron = FontFamily(

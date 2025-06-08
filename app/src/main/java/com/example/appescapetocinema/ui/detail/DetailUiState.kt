@@ -1,16 +1,13 @@
-package com.example.appescapetocinema.ui.detail // O tu paquete
+package com.example.appescapetocinema.ui.detail
 
-// --- Importaciones necesarias ---
-import com.example.appescapetocinema.ui.detail.MovieDetails
 import com.example.appescapetocinema.network.dto.CountrySpecificProvidersDto
 import com.example.appescapetocinema.model.NewsArticle
-import com.example.appescapetocinema.model.Review // Modelo UI de reseña
-import com.example.appescapetocinema.ui.components.MovieItem // Modelo UI para listas (similares)
-import com.example.appescapetocinema.network.dto.CastMemberDto // DTO de reparto
-import com.example.appescapetocinema.network.dto.CrewMemberDto // DTO de equipo (director)
+import com.example.appescapetocinema.model.Review
+import com.example.appescapetocinema.ui.components.MovieItem
+import com.example.appescapetocinema.network.dto.CastMemberDto
+import com.example.appescapetocinema.network.dto.CrewMemberDto
 
 data class DetailUiState(
-    // --- Campos Existentes ---
     val movieDetails: MovieDetails? = null,
     val isLoading: Boolean = true, // Carga inicial principal
     val errorMessage: String? = null, // Error general o de carga inicial
@@ -20,9 +17,8 @@ data class DetailUiState(
     val isUpdatingRating: Boolean = false,
     val cast: List<CastMemberDto> = emptyList(),
     val director: CrewMemberDto? = null,
-    val similarMovies: List<MovieItem> = emptyList(), // Mantenemos esto porque NO usamos Paging aquí
+    val similarMovies: List<MovieItem> = emptyList(),
 
-    // --- CAMPOS NUEVOS PARA RESEÑAS ---
     val reviews: List<Review> = emptyList(),          // Lista de reseñas cargadas
     val isLoadingReviews: Boolean = false,       // ¿Están cargando específicamente las reseñas?
     val userReviewInputText: String = "",        // Texto en el TextField de reseña

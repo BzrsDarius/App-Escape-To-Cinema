@@ -2,7 +2,7 @@ package com.example.appescapetocinema.ui.cinemas
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.appescapetocinema.repository.CinemaRepository // Importar Interfaz
+import com.example.appescapetocinema.repository.CinemaRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

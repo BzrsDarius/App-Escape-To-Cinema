@@ -1,8 +1,8 @@
 package com.example.appescapetocinema.ui.trivia
 
-import android.app.Application // Necesario para acceder a Assets
-import androidx.lifecycle.AndroidViewModel // Usar AndroidViewModel para Context/Assets
-import androidx.lifecycle.SavedStateHandle // Para recibir argumentos de navegación
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewModelScope
@@ -14,15 +14,13 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.Dispatchers // Para IO
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json // Importar Json parser
+import kotlinx.serialization.json.Json
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import java.io.IOException
-import kotlinx.coroutines.Job // Importar Job
-
-// Importa el estado UI
+import kotlinx.coroutines.Job
 import com.example.appescapetocinema.repository.UserProfileRepository
 import com.example.appescapetocinema.repository.UserProfileRepositoryImpl
 import com.example.appescapetocinema.util.ACHIEVEMENT_TRIVIA_MASTER_GENERAL
@@ -32,7 +30,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.isActive
 
-// Clave para el argumento de categoría (debe coincidir con NavHost)
+// Clave para el argumento de categoría
 const val TRIVIA_CATEGORY_ARG = "category"
 
 // Hereda de AndroidViewModel para acceder al contexto/assets
@@ -56,7 +54,7 @@ class TriviaViewModel(
     private var timerJob: Job? = null
     private var currentCorrectStreak = 0 // Variable para la racha actual
 
-    // Opcional: Para notificar a la UI sobre logros desbloqueados
+    // Notificar a la UI sobre logros desbloqueados
     private val _achievementUnlockedEvent = Channel<String>(Channel.BUFFERED)
     val achievementUnlockedEvent: Flow<String> = _achievementUnlockedEvent.receiveAsFlow()
 

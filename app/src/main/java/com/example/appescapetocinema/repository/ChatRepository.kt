@@ -1,7 +1,4 @@
-// En data/repository/ChatRepository.kt (o donde tengas tus interfaces de repositorio)
-package com.example.appescapetocinema.repository // Ajusta tu paquete
-
-// No necesita imports específicos más allá de Result y String si solo devuelve String
+package com.example.appescapetocinema.repository
 
 interface ChatRepository {
     /**

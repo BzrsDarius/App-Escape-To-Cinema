@@ -1,7 +1,7 @@
 package com.example.appescapetocinema.ui.timeline
 
-import android.app.Application // Necesario para AndroidViewModel
-import androidx.lifecycle.AndroidViewModel // Cambiar ViewModel a AndroidViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
@@ -14,7 +14,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.decodeFromString
 import java.io.IOException
 import android.util.Log
 import androidx.lifecycle.ViewModel

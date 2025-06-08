@@ -34,8 +34,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.compose.material3.Slider
-import androidx.compose.material3.LinearProgressIndicator // Para feedback de carga
-import androidx.compose.runtime.remember // Para estado local del slider
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import java.text.NumberFormat
 import androidx.compose.ui.platform.LocalFocusManager
@@ -52,7 +52,7 @@ import com.example.appescapetocinema.R
 import com.example.appescapetocinema.network.dto.CountrySpecificProvidersDto
 import com.example.appescapetocinema.model.NewsArticle
 import com.example.appescapetocinema.model.Review
-import com.example.appescapetocinema.network.TmdbApiService // Para URLs base de imágenes
+import com.example.appescapetocinema.network.TmdbApiService
 import com.example.appescapetocinema.network.dto.CastMemberDto
 import com.example.appescapetocinema.network.dto.CrewMemberDto
 import com.example.appescapetocinema.repository.MovieRepositoryImpl

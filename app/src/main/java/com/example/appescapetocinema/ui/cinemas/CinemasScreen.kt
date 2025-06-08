@@ -1,11 +1,11 @@
 package com.example.appescapetocinema.ui.cinemas
 
-import android.Manifest // Importar Manifest
+import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.location.LocationManager // Para comprobar GPS
-import android.provider.Settings // Para abrir ajustes de ubicación
+import android.location.LocationManager
+import android.provider.Settings
 import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -15,7 +15,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.* // LocationOn, Map, Error
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -26,18 +26,16 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.example.appescapetocinema.model.Cinema // Importa modelo UI Cinema
-import com.example.appescapetocinema.repository.CinemaRepositoryImpl // Para Factory y preview
-import com.example.appescapetocinema.ui.theme.AppEscapeToCinemaTheme
-import com.google.android.gms.location.LocationServices // Para FusedLocationProviderClient
+import com.example.appescapetocinema.model.Cinema
+import com.example.appescapetocinema.repository.CinemaRepositoryImpl
+import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
-import java.util.Locale // Para formatear distancia
+import java.util.Locale
 
 // --- CinemasScreen (UI Desacoplada) ---
 @OptIn(ExperimentalMaterial3Api::class)

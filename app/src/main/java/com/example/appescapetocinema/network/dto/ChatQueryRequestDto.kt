@@ -1,5 +1,4 @@
-// En un paquete como data/network/dto/chat o similar
-package com.example.appescapetocinema.network.dto // Ajusta tu paquete
+package com.example.appescapetocinema.network.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

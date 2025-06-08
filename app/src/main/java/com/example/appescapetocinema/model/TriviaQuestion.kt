@@ -1,7 +1,5 @@
-// Paquete que define la ubicación de esta clase dentro del proyecto
 package com.example.appescapetocinema.model
 
-// Importaciones necesarias para la serialización con Kotlin
 import kotlinx.serialization.Serializable
 
 // Clase de datos que representa una pregunta de trivia

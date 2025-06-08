@@ -1,4 +1,3 @@
-// En network/dto/FindResponseDto.kt (o donde pongas tus DTOs)
 package com.example.appescapetocinema.network.dto
 
 import kotlinx.serialization.SerialName

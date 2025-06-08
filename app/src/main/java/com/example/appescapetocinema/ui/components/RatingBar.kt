@@ -3,11 +3,11 @@ package com.example.appescapetocinema.ui.components
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Star // Estrella llena
-import androidx.compose.material.icons.filled.StarBorder // Borde de estrella
-import androidx.compose.material.icons.filled.StarHalf // Media estrella
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.filled.StarBorder
+import androidx.compose.material.icons.filled.StarHalf
 import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme // Para el color
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color

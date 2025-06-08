@@ -1,8 +1,7 @@
 package com.example.appescapetocinema.repository
 
-import com.example.appescapetocinema.model.Review // Modelo UI
-import com.example.appescapetocinema.model.ReviewFirestoreData // Modelo Firestore
-import com.google.firebase.Timestamp
+import com.example.appescapetocinema.model.Review
+import com.example.appescapetocinema.model.ReviewFirestoreData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
@@ -12,7 +11,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.tasks.await
 import android.util.Log
-import java.util.Date
 
 // --- Interfaz ---
 interface ReviewRepository {

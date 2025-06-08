@@ -4,17 +4,15 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import androidx.paging.PagingData // Importar PagingData
-import androidx.paging.cachedIn // Importar cachedIn
+import androidx.paging.PagingData
+import androidx.paging.cachedIn
 import com.example.appescapetocinema.network.NetworkModule
 import com.example.appescapetocinema.repository.MoviePagingSource
-import com.example.appescapetocinema.repository.MovieRepository // Importar Interfaz Repo
+import com.example.appescapetocinema.repository.MovieRepository
 import com.example.appescapetocinema.repository.MovieRepositoryImpl
-import com.example.appescapetocinema.ui.components.MovieItem // Importar Modelo UI
-import kotlinx.coroutines.flow.Flow // Importar Flow
+import com.example.appescapetocinema.ui.components.MovieItem
+import kotlinx.coroutines.flow.Flow
 
-// Ya no necesitamos un UiState complejo aquí para las listas
-// data class HomeUiState(...)
 
 class HomeViewModel(
     private val movieRepository: MovieRepository // Recibe la interfaz
@@ -34,7 +32,7 @@ class HomeViewModel(
         .getNowPlayingMoviesStream() // <-- Llama a la función Stream del repo
         .cachedIn(viewModelScope) // <-- Cachea el resultado
 
-    private val tmdbApiServiceInstance = NetworkModule.tmdbApiService // Ejemplo, ajusta a cómo obtienes tu servicio
+    private val tmdbApiServiceInstance = NetworkModule.tmdbApiService
 
     val horrorMoviesFlow: Flow<PagingData<MovieItem>> = Pager(
         config = PagingConfig(pageSize = MovieRepositoryImpl.NETWORK_PAGE_SIZE),
@@ -42,7 +40,6 @@ class HomeViewModel(
             MoviePagingSource(
                 tmdbApiService = tmdbApiServiceInstance, // Pasa el servicio
                 listType = MoviePagingSource.MovieListType.HORROR_MOVIES
-                // sortBy = "vote_average.desc" // Opcional: ordenar las de terror por valoración
             )
         }
     ).flow.cachedIn(viewModelScope)
@@ -53,7 +50,6 @@ class HomeViewModel(
             MoviePagingSource(
                 tmdbApiService = tmdbApiServiceInstance,
                 listType = MoviePagingSource.MovieListType.ACTION_MOVIES
-                // sortBy = "popularity.desc" // Opcional: ordenar por popularidad
             )
         }
     ).flow.cachedIn(viewModelScope)
@@ -64,7 +60,7 @@ class HomeViewModel(
             MoviePagingSource(
                 tmdbApiService = tmdbApiServiceInstance,
                 listType = MoviePagingSource.MovieListType.EIGHTIES_MOVIES,
-                sortBy = "popularity.desc" // Ejemplo: populares de los 80
+                sortBy = "popularity.desc"
             )
         }
     ).flow.cachedIn(viewModelScope)
@@ -75,7 +71,7 @@ class HomeViewModel(
             MoviePagingSource(
                 tmdbApiService = tmdbApiServiceInstance,
                 listType = MoviePagingSource.MovieListType.CARPENTER_MOVIES,
-                sortBy = "release_date.desc" // Ejemplo: las más recientes de Carpenter primero
+                sortBy = "release_date.desc"
             )
         }
     ).flow.cachedIn(viewModelScope)

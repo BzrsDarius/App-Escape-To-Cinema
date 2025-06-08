@@ -9,7 +9,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.items // Necesario para LazyRow/LazyColumn items
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
@@ -20,14 +20,14 @@ import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
-import androidx.compose.material3.pulltorefresh.PullToRefreshContainer // Importar M3 PullToRefresh
-import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState // Importar M3 PullToRefresh
+import androidx.compose.material3.pulltorefresh.PullToRefreshContainer
+import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.input.nestedscroll.nestedScroll // Para PullToRefresh
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
@@ -44,23 +44,20 @@ import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemContentType
 import androidx.paging.compose.itemKey
-
-// --- Importaciones de tu proyecto (AJUSTA PAQUETES) ---
 import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase
 import com.example.appescapetocinema.ui.detail.MovieDetails
-import com.example.appescapetocinema.ui.components.MovieCard // Importa MovieCard
-import com.example.appescapetocinema.repository.* // Importa todos los repositorios
+import com.example.appescapetocinema.ui.components.MovieCard
+import com.example.appescapetocinema.repository.*
 import com.example.appescapetocinema.ui.trivia.triviaCategories
 import com.example.appescapetocinema.ui.components.MovieItem
-// Importa helpers/constantes de logros (AJUSTA PAQUETE)
-import com.example.appescapetocinema.util.* // O importa IDs individuales
+import com.example.appescapetocinema.util.*
 import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
 import java.util.Locale
 
 
 // --- ProfileScreen (UI - Con Logros y PullToRefresh) ---
-@OptIn(ExperimentalMaterial3Api::class) // Solo M3 es necesario ahora
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProfileScreen(
     uiState: ProfileUiState,
@@ -88,7 +85,7 @@ fun ProfileScreen(
     onNavigateToAcknowledgements: () -> Unit
 ) {
     val pullRefreshState = rememberPullToRefreshState()
-    LaunchedEffect(Unit) { // `Unit` como clave significa que se ejecuta una vez
+    LaunchedEffect(Unit) {
         Log.d("ProfileScreen", "LaunchedEffect(Unit): Entrando a ProfileScreen, llamando a onRefreshProfile()")
         onRefreshProfile()
     }
@@ -292,7 +289,7 @@ fun ProfileScreen(
                     )
                 }
 
-// Mostrar shimmer o placeholders si isLoadingAchievements es true y la lista está vacía
+                // Mostrar shimmer o placeholders si isLoadingAchievements es true y la lista está vacía
                 if (uiState.isLoading && uiState.achievementsForDisplay.isEmpty()) { // O usa isLoadingAchievements si lo implementas
                     // Muestra algunos placeholders/shimmers para los logros
                     items(3) { index -> // Muestra 3 placeholders de ejemplo

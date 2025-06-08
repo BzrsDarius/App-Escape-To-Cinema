@@ -18,9 +18,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase // Para la Factory
+import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase
 import com.example.appescapetocinema.ui.settings.changepassword.ChangePasswordViewModel.ChangePasswordViewModelFactory
-import com.google.firebase.auth.FirebaseAuth // Para la Factory
+import com.google.firebase.auth.FirebaseAuth
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

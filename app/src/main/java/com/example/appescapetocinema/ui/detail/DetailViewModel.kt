@@ -6,9 +6,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
-import com.example.appescapetocinema.repository.MovieRepository // Repo de películas
-import com.example.appescapetocinema.repository.UserRepository // <-- NUEVO: Repo de usuario
-import kotlinx.coroutines.flow.* // Importa collect, etc.
+import com.example.appescapetocinema.repository.MovieRepository
+import com.example.appescapetocinema.repository.UserRepository
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import android.util.Log
 import androidx.paging.PagingData
@@ -26,13 +26,11 @@ import com.example.appescapetocinema.util.ACHIEVEMENT_REVIEW_PRO_15
 import com.example.appescapetocinema.util.getAchievementName
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.async // Para llamadas paralelas
+import kotlinx.coroutines.async
 import kotlinx.coroutines.tasks.await
-import kotlinx.coroutines.channels.Channel // Para eventos de una sola vez
-import kotlinx.coroutines.flow.receiveAsFlow // Para convertir Channel a Flow
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.receiveAsFlow
 
-// Importa el estado si está en otro archivo
-// import com.example.appescapetocinema.ui.detail.DetailUiState
 
 const val MOVIE_ID_ARG = "movieId"
 private const val JOHN_CARPENTER_PERSON_ID = 11770  // ID de persona de John Carpenter en TMDb
@@ -44,11 +42,9 @@ class DetailViewModel(
     private val auth: FirebaseAuth,
     private val savedStateHandle: SavedStateHandle,
     private val userProfileRepository: UserProfileRepository,
-    // --- 1. AÑADIR NewsRepository A LAS DEPENDENCIAS DEL CONSTRUCTOR ---
     private val newsRepository: NewsRepository
 ) : ViewModel() {
 
-    // _uiState ya lo tienes. Asegúrate que DetailUiState tiene los campos para noticias.
     private val _uiState = MutableStateFlow(DetailUiState())
     val uiState: StateFlow<DetailUiState> = _uiState.asStateFlow()
 
@@ -61,7 +57,6 @@ class DetailViewModel(
         Log.d("DetailViewModel", "Iniciando ViewModel para movieId: $movieId")
         _uiState.update { it.copy(currentUserId = auth.currentUser?.uid) }
         movieId?.let { id ->
-            // --- 2. CAMBIAR NOMBRE DE FUNCIÓN DE CARGA PRINCIPAL (Opcional, pero más claro) ---
             loadInitialMovieData(id) // Carga detalles, cast, y luego noticias
             observeMyListStatus(id)
             observeUserRating(id)
@@ -72,7 +67,7 @@ class DetailViewModel(
             _uiState.update {
                 it.copy(
                     isLoading = false,
-                    isLoadingMovieNews = false, // Añadir si no estaba
+                    isLoadingMovieNews = false,
                     errorMessage = "Error: ID de película inválido."
                 )
             }
@@ -101,11 +96,6 @@ class DetailViewModel(
                 val detailsDeferred = async { movieRepository.getMovieDetails(id) }
                 val creditsDeferred = async { movieRepository.getMovieCredits(id) }
                 val watchProvidersDeferred = async { movieRepository.getWatchProviders(id) }
-
-                // Los observadores de Firebase para MiLista, Rating, Reviews, ExistingReview
-                // ya se inician en el bloque `init` y se ejecutarán concurrentemente.
-                // No es necesario volver a llamarlos aquí a menos que quieras forzar una re-lectura
-                // que no sea por el listener.
 
                 // Esperar y obtener los resultados o null si fallan
                 val movieDetailsResult = detailsDeferred.await() // Guardamos el Result para un mejor log de error
@@ -201,11 +191,9 @@ class DetailViewModel(
             }
         }
     }
-    // En DetailViewModel.kt
 
     private fun loadRelatedNewsFromRepository(movieTitle: String, directorName: String?, actorName: String?) {
         Log.d("DetailViewModel", "Cargando noticias para: '$movieTitle', Director: '$directorName', Actor: '$actorName'")
-        // isLoadingMovieNews ya se debería haber puesto a true
 
         viewModelScope.launch {
             try {
@@ -301,9 +289,7 @@ class DetailViewModel(
     }
 
     fun toggleMyListStatus() {
-        // --- LOG AÑADIDO AQUÍ ---
         Log.d("DetailViewModel", "toggleMyListStatus() INVOCADO.")
-        // --- FIN LOG AÑADIDO ---
 
         val currentUiState = _uiState.value
         val currentMovieId = this.movieId ?: run {
@@ -378,10 +364,10 @@ class DetailViewModel(
         }
     }
 
-    // --- NUEVO: Enviar/Guardar la valoración ---
+    // --- Enviar/Guardar la valoración ---
     fun submitRating(rating: Double) { // Recibe Double
         val currentMovieId = this.movieId ?: return // Usa this.movieId
-        if (rating < 0.0 || rating > 10.0) { /* ... validación ... */ return
+        if (rating < 0.0 || rating > 10.0) { return
         }
         if (_uiState.value.isUpdatingRating) return
 
@@ -418,8 +404,6 @@ class DetailViewModel(
         movieId?.let { loadInitialMovieData(it) } // Llama a la función que carga todo
             ?: _uiState.update { it.copy(errorMessage = "Error: No se puede reintentar sin un ID.") }
     }
-
-    // --- NUEVAS FUNCIONES PARA RESEÑAS ---
 
     private fun observeReviews(id: Int) {
         Log.d("DetailViewModel", "[Observe Reviews Start] ID: $id")
@@ -555,9 +539,7 @@ class DetailViewModel(
         val userId = auth.currentUser?.uid ?: return
         viewModelScope.launch {
             try {
-                // Esto asume que tus reseñas están en una colección raíz o subcolección fácil de consultar por userId
-
-                reviewRepository.getUserReviewCount(userId).onSuccess { count -> // Asumiendo que creas esta función
+                reviewRepository.getUserReviewCount(userId).onSuccess { count ->
                     Log.d("DetailViewModel", "Total reseñas del usuario $userId: $count")
                     if (count >= 5) {
                         checkAndUnlockAchievement(ACHIEVEMENT_REVIEW_AUTHOR_5)
@@ -651,7 +633,6 @@ class DetailViewModel(
         }
 
         Log.d("DetailViewModel", "deleteCurrentUserReview: Intentando borrar reseña para Movie $currentMovieId, User $userId")
-        // No marcamos isSubmittingReview aquí, es una acción diferente
         _uiState.update { it.copy(reviewSubmissionError = null) } // Limpiar error previo
 
         viewModelScope.launch {
@@ -685,8 +666,7 @@ class DetailViewModel(
                 private const val ACHIEVEMENT_FIRST_RATING = "FIRST_RATING"
                 private const val ACHIEVEMENT_MYLIST_5 = "MYLIST_5"
                 private const val ACHIEVEMENT_RATED_5 = "RATED_5"
-                // La función se llama 'Factory' con F mayúscula
-                // Acepta todas las dependencias que el ViewModel necesita y que no se inyectan solas
+
                 fun Factory(
                     movieRepository: MovieRepository,
                     userRepository: UserRepository,

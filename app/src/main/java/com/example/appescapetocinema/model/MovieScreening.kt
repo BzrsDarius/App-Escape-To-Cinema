@@ -1,4 +1,3 @@
-// Paquete que define la ubicación de esta clase dentro del proyecto
 package com.example.appescapetocinema.model
 
 // Clase de datos que representa un horario específico

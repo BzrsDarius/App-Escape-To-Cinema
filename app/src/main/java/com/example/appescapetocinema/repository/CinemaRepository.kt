@@ -1,13 +1,12 @@
 package com.example.appescapetocinema.repository
 
-import retrofit2.HttpException // Necesaria para capturar errores HTTP específicos
-import com.example.appescapetocinema.BuildConfig
+import retrofit2.HttpException
 import com.example.appescapetocinema.model.Cinema
 import com.example.appescapetocinema.model.MovieScreening
 import com.example.appescapetocinema.model.ScreeningsByFormat
 import com.example.appescapetocinema.model.Showtime
 import com.example.appescapetocinema.network.MovieGluApiService
-import com.example.appescapetocinema.network.NetworkModule // Para obtener el servicio
+import com.example.appescapetocinema.network.NetworkModule
 import com.example.appescapetocinema.network.movieglu_dto.CinemaMovieGluDto
 import com.example.appescapetocinema.network.movieglu_dto.FilmShowingDto
 import kotlinx.coroutines.Dispatchers

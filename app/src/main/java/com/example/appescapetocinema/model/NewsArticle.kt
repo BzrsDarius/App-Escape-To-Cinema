@@ -1,5 +1,4 @@
-// Paquete que define la ubicación de esta clase dentro del proyecto
-package com.example.appescapetocinema.model // O tu paquete
+package com.example.appescapetocinema.model
 
 // Importación necesaria para trabajar con fechas
 import java.util.Date // O usa String si prefieres

@@ -1,10 +1,6 @@
-package com.example.appescapetocinema.ui.theme // O tu paquete
+package com.example.appescapetocinema.ui.theme
 
 import androidx.compose.ui.graphics.Color
-
-
-
-// --- PALETA "ESCAPE TO CINEMA" ---
 
 // Fondos y Superficies Oscuras
 val DarkBackground = Color(0xFF101419)       // Azul muy oscuro casi negro

@@ -2,7 +2,7 @@ package com.example.appescapetocinema.ui.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.appescapetocinema.repository.MovieRepository // Importa la interfaz
+import com.example.appescapetocinema.repository.MovieRepository
 import com.example.appescapetocinema.repository.UserProfileRepository
 
 class SearchViewModelFactory(

@@ -10,9 +10,9 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Send
-import androidx.compose.material.icons.filled.ChatBubbleOutline // Icono para el bot
-import androidx.compose.material.icons.filled.ErrorOutline // Icono para error
-import androidx.compose.material.icons.filled.PersonOutline // Icono para el usuario
+import androidx.compose.material.icons.filled.ChatBubbleOutline
+import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.filled.PersonOutline
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -26,7 +26,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.appescapetocinema.model.ChatMessage
 import com.example.appescapetocinema.model.SenderType
-import com.example.appescapetocinema.repository.ChatRepositoryImpl // Para la factory del ViewModel
+import com.example.appescapetocinema.repository.ChatRepositoryImpl
 
 @Composable
 fun ChatScreenContainer(

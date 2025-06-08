@@ -2,7 +2,7 @@ package com.example.appescapetocinema.ui.news
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.appescapetocinema.repository.NewsRepository // Importa Interfaz
+import com.example.appescapetocinema.repository.NewsRepository
 
 class NewsViewModelFactory(
     private val newsRepository: NewsRepository // Recibe la interfaz

@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import android.util.Patterns // Para validación de email
+import android.util.Patterns
 import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase
 
 class RegistroViewModel(

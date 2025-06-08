@@ -2,7 +2,7 @@ package com.example.appescapetocinema.ui.news
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.appescapetocinema.repository.NewsRepository // Importa Interfaz Repo
+import com.example.appescapetocinema.repository.NewsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

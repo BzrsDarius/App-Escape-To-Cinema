@@ -23,9 +23,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.appescapetocinema.R // Para tus placeholders
+import com.example.appescapetocinema.R
 import com.example.appescapetocinema.network.dto.ProviderDto
-import com.example.appescapetocinema.network.TmdbApiService // Para la URL base de imágenes
+import com.example.appescapetocinema.network.TmdbApiService
 import com.valentinilk.shimmer.shimmer
 
 @Composable

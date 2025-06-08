@@ -1,11 +1,10 @@
-package com.example.appescapetocinema.repository // O tu paquete elegido
+package com.example.appescapetocinema.repository
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.appescapetocinema.BuildConfig // API Key
-import com.example.appescapetocinema.ui.components.MovieItem // Modelo UI
-import com.example.appescapetocinema.network.TmdbApiService // Interfaz Retrofit
-import com.example.appescapetocinema.network.dto.MovieResultDto // DTO API
+import com.example.appescapetocinema.ui.components.MovieItem
+import com.example.appescapetocinema.network.TmdbApiService
+import com.example.appescapetocinema.network.dto.MovieResultDto
 import retrofit2.HttpException
 import java.io.IOException
 import android.util.Log

@@ -1,22 +1,21 @@
 package com.example.appescapetocinema.repository
 
-import android.text.Html // Para limpiar HTML si es necesario en descripciones
+import android.text.Html
 import android.util.Log
-import com.example.appescapetocinema.model.NewsArticle // Tu modelo de datos
+import com.example.appescapetocinema.model.NewsArticle
 import com.prof18.rssparser.RssParser
-import com.prof18.rssparser.RssParserBuilder // Si necesitas configurar el parser
+import com.prof18.rssparser.RssParserBuilder
 import com.prof18.rssparser.model.RssItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.withContext
-import java.io.IOException
 import java.net.URI
 import java.text.SimpleDateFormat
-import java.util.* // Para Date, Locale, TimeZone
-import javax.inject.Inject // Si usas Hilt
-import javax.inject.Singleton // Si usas Hilt
+import java.util.*
+import javax.inject.Inject
+import javax.inject.Singleton
 
 interface NewsRepository {
     suspend fun getLatestNews(): Result<List<NewsArticle>>

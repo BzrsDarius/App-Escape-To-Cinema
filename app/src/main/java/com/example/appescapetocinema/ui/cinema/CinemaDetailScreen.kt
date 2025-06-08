@@ -10,7 +10,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.CalendarToday
-import androidx.compose.material.icons.filled.MovieFilter // Icono para formato
+import androidx.compose.material.icons.filled.MovieFilter
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -26,9 +26,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.appescapetocinema.model.MovieScreening // Importa modelo
+import com.example.appescapetocinema.model.MovieScreening
 import com.example.appescapetocinema.repository.CinemaRepositoryImpl
-import com.example.appescapetocinema.R // Para placeholder
+import com.example.appescapetocinema.R
 import com.example.appescapetocinema.repository.MovieRepositoryImpl
 import kotlinx.coroutines.flow.collectLatest
 import java.text.SimpleDateFormat

@@ -11,7 +11,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
@@ -27,7 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewmodel.compose.viewModel // Importa viewModel()
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.appescapetocinema.ui.theme.AppEscapeToCinemaTheme
@@ -44,7 +43,7 @@ import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase
 // --- Composable de UI Desacoplado ---
 @Composable
 fun LoginScreen(
-    navController: NavController, // Sigue siendo necesario para navegación directa (ej. a Registro)
+    navController: NavController,
     // Parámetros para estado y eventos en lugar del ViewModel directo
     uiState: LoginUiState,
     onCorreoChange: (String) -> Unit,
@@ -139,8 +138,8 @@ fun LoginScreen(
                     focusedBorderColor = MaterialTheme.colorScheme.primary,
                     unfocusedBorderColor = MaterialTheme.colorScheme.outline,
                     cursorColor = MaterialTheme.colorScheme.primary,
-                    focusedTextColor = MaterialTheme.colorScheme.onSurface, // Correct parameter
-                    unfocusedTextColor = MaterialTheme.colorScheme.onSurface, // Correct parameter
+                    focusedTextColor = MaterialTheme.colorScheme.onSurface,
+                    unfocusedTextColor = MaterialTheme.colorScheme.onSurface,
                     focusedLabelColor = MaterialTheme.colorScheme.primary,
                     unfocusedLabelColor = MaterialTheme.colorScheme.onSurfaceVariant
                 ),
@@ -189,7 +188,7 @@ fun LoginScreen(
             Button(
                 onClick = {
                     Log.d("LoginScreenGoogle", "Botón Google presionado. Lanzando intent...")
-                    onGoogleLoginRequest() // Llama a la lambda para (opcionalmente) limpiar mensajes
+                    onGoogleLoginRequest() // Llama a la lambda para limpiar mensajes
                     val signInIntent = googleSignInClient.signInIntent
                     googleSignInLauncher.launch(signInIntent) // Lanza el intent (esto sigue aquí)
                 },
@@ -267,69 +266,5 @@ class LoginViewModelFactory(
             return LoginViewModel(repositorioAuth) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class for LoginViewModelFactory")
-    }
-}
-
-
-
-@Preview(showBackground = true, name = "Login Screen - Default")
-@Composable
-fun LoginScreenPreviewDefault() {
-    AppEscapeToCinemaTheme(darkTheme = true) {
-        LoginScreen(
-            navController = rememberNavController(),
-            uiState = LoginUiState(),
-            onCorreoChange = {}, onContrasenaChange = {}, onLoginClick = {},
-            onGoogleLoginRequest = {}, onForgotPasswordClick = {}, onNavigateToRegister = {},
-            onLoginWithGoogleToken = {}, onErrorShown = {}, onInfoShown = {}, onNavigationDone = {}
-        )
-    }
-}
-
-@Preview(showBackground = true, name = "Login Screen - Loading")
-@Composable
-fun LoginScreenPreviewLoading() {
-    AppEscapeToCinemaTheme(darkTheme = true) {
-        LoginScreen(
-            navController = rememberNavController(),
-            uiState = LoginUiState(isLoading = true),
-            onCorreoChange = {}, onContrasenaChange = {}, onLoginClick = {},
-            onGoogleLoginRequest = {}, onForgotPasswordClick = {}, onNavigateToRegister = {},
-            onLoginWithGoogleToken = {}, onErrorShown = {}, onInfoShown = {}, onNavigationDone = {}
-        )
-    }
-}
-
-@Preview(showBackground = true, name = "Login Screen - Error")
-@Composable
-fun LoginScreenPreviewError() {
-    AppEscapeToCinemaTheme(darkTheme = true) {
-        LoginScreen(
-            navController = rememberNavController(),
-            uiState = LoginUiState(
-                correo = "usuario@ejemplo.com",
-                errorMessage = "Contraseña incorrecta. Inténtalo de nuevo."
-            ),
-            onCorreoChange = {}, onContrasenaChange = {}, onLoginClick = {},
-            onGoogleLoginRequest = {}, onForgotPasswordClick = {}, onNavigateToRegister = {},
-            onLoginWithGoogleToken = {}, onErrorShown = {}, onInfoShown = {}, onNavigationDone = {}
-        )
-    }
-}
-
-@Preview(showBackground = true, name = "Login Screen - Info Message")
-@Composable
-fun LoginScreenPreviewInfo() {
-    AppEscapeToCinemaTheme(darkTheme = true) {
-        LoginScreen(
-            navController = rememberNavController(),
-            uiState = LoginUiState(
-                correo = "usuario@ejemplo.com",
-                infoMessage = "Correo de recuperación enviado."
-            ),
-            onCorreoChange = {}, onContrasenaChange = {}, onLoginClick = {},
-            onGoogleLoginRequest = {}, onForgotPasswordClick = {}, onNavigateToRegister = {},
-            onLoginWithGoogleToken = {}, onErrorShown = {}, onInfoShown = {}, onNavigationDone = {}
-        )
     }
 }

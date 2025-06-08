@@ -1,4 +1,3 @@
-// En app/src/main/java/com/example/appescapetocinema/network/dto/MovieDetailsDto.kt
 package com.example.appescapetocinema.network.dto
 
 import kotlinx.serialization.SerialName

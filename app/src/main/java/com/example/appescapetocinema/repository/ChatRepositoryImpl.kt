@@ -1,9 +1,8 @@
-// En data/repository/ChatRepositoryImpl.kt
 package com.example.appescapetocinema.repository
 
 import android.util.Log
-import com.example.appescapetocinema.network.NetworkModule // Para acceder a tmdbApiService
-import com.example.appescapetocinema.network.TmdbApiService // Tu interfaz de servicio
+import com.example.appescapetocinema.network.NetworkModule
+import com.example.appescapetocinema.network.TmdbApiService
 import com.example.appescapetocinema.network.dto.ChatQueryRequestDto
 import java.io.IOException
 

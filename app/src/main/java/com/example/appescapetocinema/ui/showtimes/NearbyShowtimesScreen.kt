@@ -7,7 +7,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.* // LocationOn, Error, Theaters, etc.
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.example.appescapetocinema.model.CinemaShowtimeResultItem
 import com.example.appescapetocinema.ui.cinemas.GpsDisabledContent
 import com.example.appescapetocinema.ui.cinemas.PermissionDeniedContent
-import java.util.* // Para Locale
+import java.util.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -3,10 +3,8 @@ package com.example.appescapetocinema.ui.home
 import android.util.Log
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-// --- Importaciones Paging Compose ---
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
-// --- Fin Importaciones Paging Compose ---
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -15,16 +13,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-
-// --- Importaciones de tu proyecto ---
 import com.example.appescapetocinema.ui.theme.AppEscapeToCinemaTheme
-import com.example.appescapetocinema.ui.components.MovieItem // Importa Modelo
-import com.example.appescapetocinema.repository.MovieRepositoryImpl // Para Factory
-// --- Importar Componentes Reutilizables (Asegúrate que existen y están en la ruta correcta) ---
+import com.example.appescapetocinema.ui.components.MovieItem
+import com.example.appescapetocinema.repository.MovieRepositoryImpl
 import com.example.appescapetocinema.ui.components.MovieSectionPaginated
-
-// --- ELIMINAR DATOS DE EJEMPLO (sampleMovies, sampleClassics) ---
-// Ya no los necesitamos aquí, vendrán del ViewModel paginado
 
 // --- HomeScreen (UI - Modificada para recibir LazyPagingItems) ---
 @OptIn(ExperimentalMaterial3Api::class)
@@ -33,7 +25,6 @@ fun HomeScreen(
     popularMovies: LazyPagingItems<MovieItem>,
     topRatedMovies: LazyPagingItems<MovieItem>,
     nowPlayingMovies: LazyPagingItems<MovieItem>,
-    // --- Recibir los nuevos LazyPagingItems ---
     horrorMovies: LazyPagingItems<MovieItem>,
     actionMovies: LazyPagingItems<MovieItem>,
     eightiesMovies: LazyPagingItems<MovieItem>,
@@ -133,15 +124,6 @@ fun HomeScreen(
         } // Fin LazyColumn
     } // Fin Scaffold
 }
-// --- ELIMINAR MovieSection (Versión NO Paginada) ---
-/*
-@Composable
-fun MovieSection(
-    title: String,
-    movies: List<MovieItem>,
-    onMovieClick: (Int) -> Unit
-) { ... }
-*/
 
 // --- HomeScreenContainer (MODIFICADO para coleccionar Flows) ---
 @Composable
@@ -161,7 +143,6 @@ fun HomeScreenContainer(
         popularMovies = popularMovies,
         topRatedMovies = topRatedMovies,
         nowPlayingMovies = nowPlayingMovies,
-        // --- Pasar los nuevos LazyPagingItems ---
         horrorMovies = horrorMovies,
         actionMovies = actionMovies,
         eightiesMovies = eightiesMovies,
@@ -173,14 +154,3 @@ fun HomeScreenContainer(
     )
 }
 
-// --- Previews (Simplificadas) ---
-@Preview(showBackground = true, name = "Home Container Preview")
-@Composable
-fun HomeScreenContainerPreview() {
-    // --- Importante: Envuelve la preview con TU Tema ---
-    AppEscapeToCinemaTheme {
-        HomeScreenContainer(navController = rememberNavController())
-    }
-}
-// Nota: Previsualizar directamente HomeScreen ahora es complejo debido a LazyPagingItems.
-// Es mejor previsualizar MovieSectionPaginated o MovieCard en sus propios archivos/previews.

@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.appescapetocinema.repository.RepositorioAutenticacionFirebase
 import com.example.appescapetocinema.repository.MovieRepository
 import com.example.appescapetocinema.repository.UserRepository
-import com.example.appescapetocinema.repository.UserProfileRepository // <-- Importar Repo Perfil
+import com.example.appescapetocinema.repository.UserProfileRepository
 
 class ProfileViewModelFactory(
     private val application: Application,

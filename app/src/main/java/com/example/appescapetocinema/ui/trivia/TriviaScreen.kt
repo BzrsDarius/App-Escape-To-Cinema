@@ -29,7 +29,7 @@ import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.appescapetocinema.R
-import com.example.appescapetocinema.model.TriviaQuestion // Importar modelo
+import com.example.appescapetocinema.model.TriviaQuestion
 
 // --- TriviaScreen (UI Desacoplada) ---
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalAnimationApi::class)

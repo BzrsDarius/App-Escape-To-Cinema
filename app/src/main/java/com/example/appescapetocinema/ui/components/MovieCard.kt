@@ -12,12 +12,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.appescapetocinema.R // Asegúrate de tener un placeholder drawable
-import com.example.appescapetocinema.ui.theme.AppEscapeToCinemaTheme
+import com.example.appescapetocinema.R
 
 // Modelo de datos simple para el ejemplo
 data class MovieItem(

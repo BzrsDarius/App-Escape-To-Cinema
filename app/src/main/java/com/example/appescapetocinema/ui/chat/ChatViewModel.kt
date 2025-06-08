@@ -1,7 +1,6 @@
 package com.example.appescapetocinema.ui.chat
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.appescapetocinema.model.ChatMessage
 import com.example.appescapetocinema.model.SenderType

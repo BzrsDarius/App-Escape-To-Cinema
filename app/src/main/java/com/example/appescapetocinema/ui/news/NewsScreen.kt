@@ -1,12 +1,12 @@
 package com.example.appescapetocinema.ui.news
 
 import android.content.Intent
-import android.net.Uri // Para abrir URLs
+import android.net.Uri
 import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items // Para LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -17,20 +17,20 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext // Para Intent
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import coil.compose.AsyncImage // Para imágenes de noticias
+import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.appescapetocinema.R
-import com.example.appescapetocinema.model.NewsArticle // Importa modelo de noticia
-import com.example.appescapetocinema.repository.NewsRepositoryImpl // Para Factory y preview
+import com.example.appescapetocinema.model.NewsArticle
+import com.example.appescapetocinema.repository.NewsRepositoryImpl
 import com.example.appescapetocinema.ui.components.ShimmerNewsArticleCardPlaceholder
-import java.text.SimpleDateFormat // Para formatear fechas
-import java.util.* // Para Date y Locale
+import java.text.SimpleDateFormat
+import java.util.*
 
 // --- NewsScreen (UI Desacoplada) ---
 @OptIn(ExperimentalMaterial3Api::class)

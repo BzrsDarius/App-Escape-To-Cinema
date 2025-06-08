@@ -3,7 +3,6 @@ package com.example.appescapetocinema.ui.chat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.appescapetocinema.repository.ChatRepository
-import com.example.appescapetocinema.repository.ChatRepositoryImpl // Importa la implementación
 
 // Factory para ChatViewModel
 class ChatViewModelFactory(

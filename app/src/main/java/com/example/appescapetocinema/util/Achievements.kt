@@ -26,10 +26,10 @@ const val ACHIEVEMENT_FIRST_RATING = "FIRST_RATING"
 const val ACHIEVEMENT_MYLIST_5 = "MYLIST_5"
 const val ACHIEVEMENT_RATED_5 = "RATED_5"
 const val ACHIEVEMENT_FIRST_REVIEW = "FIRST_REVIEW_WRITTEN"
-const val ACHIEVEMENT_TRIVIA_MASTER_ACTION = "TRIVIA_MASTER_ACTION" // Ejemplo, necesitarás uno por categoría o uno genérico
+const val ACHIEVEMENT_TRIVIA_MASTER_ACTION = "TRIVIA_MASTER_ACTION"
 const val ACHIEVEMENT_TRIVIA_MASTER_GENERAL = "TRIVIA_MASTER_GENERAL"
 const val ACHIEVEMENT_CINEPHILE_EXPLORER = "CINEPHILE_EXPLORER"
-const val ACHIEVEMENT_GEM_COLLECTOR_25 = "GEM_COLLECTOR_25" // 25 películas en Mi Lista
+const val ACHIEVEMENT_GEM_COLLECTOR_25 = "GEM_COLLECTOR_25"
 const val ACHIEVEMENT_REVIEW_AUTHOR_5 = "REVIEW_AUTHOR_5"
 const val ACHIEVEMENT_REVIEW_PRO_15 = "REVIEW_PRO_15"
 const val ACHIEVEMENT_DECADE_TRAVELER_5 = "DECADE_TRAVELER_5"
@@ -38,7 +38,7 @@ const val ACHIEVEMENT_GENRE_FAN_COMEDY = "GENRE_FAN_COMEDY"
 const val ACHIEVEMENT_TRIVIA_STREAK_10 = "TRIVIA_STREAK_10"
 const val ACHIEVEMENT_TRIVIA_TOTAL_SCORE_100 = "TRIVIA_TOTAL_SCORE_10K"
 const val ACHIEVEMENT_PROFILE_COMPLETE_BASIC = "PROFILE_COMPLETE_BASIC"
-const val ACHIEVEMENT_EASTER_EGG_CARPENTER = "EASTER_EGG_CARPENTER" // Secreto
+const val ACHIEVEMENT_EASTER_EGG_CARPENTER = "EASTER_EGG_CARPENTER"
 
 data class AchievementDefinition(
     val id: String,
@@ -90,12 +90,12 @@ val allAchievementDefinitions: List<AchievementDefinition> = listOf(
     AchievementDefinition(
         id = ACHIEVEMENT_CINEPHILE_EXPLORER, name = "Explorador Cinéfilo",
         description = "Realizaste 10 búsquedas utilizando filtros.",
-        iconUnlocked = Icons.Filled.TravelExplore, iconLocked = Icons.Outlined.Search // O Icons.Outlined.FilterAlt
+        iconUnlocked = Icons.Filled.TravelExplore, iconLocked = Icons.Outlined.Search
     ),
     AchievementDefinition(
         id = ACHIEVEMENT_GEM_COLLECTOR_25, name = "Coleccionista de Gemas",
         description = "Añadiste 25 películas a 'Mi Lista'.",
-        iconUnlocked = Icons.Filled.Diamond, iconLocked = Icons.Outlined.CheckBoxOutlineBlank // O Outlined.Diamond
+        iconUnlocked = Icons.Filled.Diamond, iconLocked = Icons.Outlined.CheckBoxOutlineBlank
     ),
     AchievementDefinition(
         id = ACHIEVEMENT_REVIEW_AUTHOR_5, name = "Voz Autorizada",

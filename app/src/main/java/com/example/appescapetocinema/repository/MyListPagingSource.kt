@@ -1,8 +1,8 @@
-package com.example.appescapetocinema.repository // O tu paquete de repositorios/paging
+package com.example.appescapetocinema.repository
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.appescapetocinema.ui.detail.MovieDetails // Modelo UI de detalles
+import com.example.appescapetocinema.ui.detail.MovieDetails
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import android.util.Log

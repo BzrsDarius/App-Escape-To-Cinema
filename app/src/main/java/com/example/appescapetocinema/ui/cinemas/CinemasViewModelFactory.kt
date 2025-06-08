@@ -2,7 +2,7 @@ package com.example.appescapetocinema.ui.cinemas
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.appescapetocinema.repository.CinemaRepository // Importar Interfaz
+import com.example.appescapetocinema.repository.CinemaRepository
 
 class CinemasViewModelFactory(
     private val cinemaRepository: CinemaRepository // Recibe la interfaz

@@ -2,7 +2,7 @@
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.ui.graphics.vector.ImageVector
-import java.net.URLEncoder // Para codificar argumentos de ruta
+import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
 sealed class Screen(val route: String, val title: String, val icon: ImageVector) {
@@ -29,10 +29,10 @@ sealed class Screen(val route: String, val title: String, val icon: ImageVector)
         route = "nearby_showtimes/{movieId}/{movieTitle}/{imdbId}",
 
         // 2. Título
-        title = "Horarios Cercanos", // O "Cines Cercanos", "Dónde ver", etc.
+        title = "Horarios Cercanos",
 
         // 3. Icono
-        icon = Icons.Filled.Theaters // O Icons.Filled.LocationOn, etc.
+        icon = Icons.Filled.Theaters
     ) {
         fun createRoute(movieId: Long, movieTitle: String, imdbId: String): String {
             return "nearby_showtimes/$movieId/$movieTitle/$imdbId"

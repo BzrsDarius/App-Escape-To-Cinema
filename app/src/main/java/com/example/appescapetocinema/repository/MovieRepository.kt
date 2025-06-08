@@ -1,4 +1,3 @@
-// En MovieRepository.kt (Interfaz CORREGIDA)
 package com.example.appescapetocinema.repository
 
 import androidx.paging.PagingData

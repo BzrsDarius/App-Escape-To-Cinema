@@ -1,7 +1,5 @@
-// En app/src/main/java/com/example/appescapetocinema/network/dto/CreditsDto.kt
 package com.example.appescapetocinema.network.dto
 
-// Importamos las anotaciones necesarias para la serialización con Kotlinx Serialization
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

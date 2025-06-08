@@ -1,7 +1,5 @@
-// Paquete que define la ubicación de esta clase dentro del proyecto
-package com.example.appescapetocinema.model // O tu paquete
+package com.example.appescapetocinema.model
 
-// Importación necesaria para generar IDs únicos
 import java.util.UUID
 
 // Enumeración que define los tipos de remitente en un mensaje de chat
