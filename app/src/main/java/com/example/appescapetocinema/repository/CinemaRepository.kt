@@ -1,5 +1,6 @@
 package com.example.appescapetocinema.repository
 
+import retrofit2.HttpException // Necesaria para capturar errores HTTP específicos
 import com.example.appescapetocinema.BuildConfig
 import com.example.appescapetocinema.model.Cinema
 import com.example.appescapetocinema.model.MovieScreening
@@ -13,6 +14,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import android.util.Log
 import com.example.appescapetocinema.network.movieglu_dto.CinemasNearbyResponseDto
+import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -121,10 +123,22 @@ class CinemaRepositoryImpl(
                 Log.w("CinemaRepository", "getNearbyCinemas: Respuesta nula o sin contenido (probablemente 204). Devolviendo lista vacía.")
                 Result.success(emptyList()) // Devuelve éxito con lista vacía
             }
-        } catch (e: Exception) {
-            Log.e("CinemaRepository", "getNearbyCinemas: Error en llamada o procesamiento", e)
-            // El mensaje de error ahora es más genérico y útil
-            Result.failure(Exception("Error al obtener cines cercanos: ${e.message}", e))
+        } catch (e: HttpException) { // <-- CAPTURA HttpException ESPECÍFICAMENTE
+            Log.e("CinemaRepository", "getNearbyCinemas: HttpException - Código: ${e.code()}", e)
+            val errorMessage = if (e.code() == 429) {
+                // Mensaje específico para el límite de tasa excedido
+                "Se ha excedido el límite de solicitudes al servicio de cines. Por favor, inténtalo más tarde."
+            } else {
+                // Mensaje más genérico para otros errores HTTP
+                "Error ${e.code()} al obtener cines: ${e.message()}"
+            }
+            Result.failure(Exception(errorMessage, e))
+        } catch (e: IOException) { // Captura errores de red (ej. no hay conexión, timeout)
+            Log.e("CinemaRepository", "getNearbyCinemas: Error de red (IOException)", e)
+            Result.failure(Exception("Error de red al conectar con el servicio de cines: ${e.message}", e))
+        } catch (e: Exception) { // Captura otras excepciones inesperadas (ej. de deserialización si el DTO es incorrecto)
+            Log.e("CinemaRepository", "getNearbyCinemas: Error general en procesamiento", e)
+            Result.failure(Exception("Error inesperado al obtener cines: ${e.message}", e))
         }
     }
 
